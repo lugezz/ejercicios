@@ -28,14 +28,3 @@ def sort_list_of_dict(list_to_sort: list) -> list:
     print(f"El id de la persona más joven ({sorted_list[-1]['edad']} años) es {sorted_list[-1]['id']}")
 
     return sorted_list
-
-
-a = generate_list_of_dicts()
-print(a)
-
-print("*" * 100)
-
-b = sort_list_of_dict(a)
-print(b)
-
-print("*" * 100)
