@@ -1,6 +1,6 @@
 import unittest
 
-from utils import generate_list_of_dicts, sort_list_of_dict
+from simple.utils import generate_list_of_dicts, sort_list_of_dict
 
 
 class TestSimple(unittest.TestCase):
