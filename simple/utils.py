@@ -22,6 +22,15 @@ def generate_list_of_dicts() -> list:
 
 
 def sort_list_of_dict(list_to_sort: list) -> list:
+    """Ordena la lista de diccionarios por edad de mayor a menor
+
+    Args:
+        list_to_sort (list): Lista de diccionarios con id y edad.
+
+    Returns:
+        list: Devuelve la lista ordenada por edad
+    """
+
     sorted_list = sorted(list_to_sort, key=lambda d: d['edad'], reverse=True)
 
     print(f"El id de la persona más vieja ({sorted_list[0]['edad']} años) es {sorted_list[0]['id']}")
