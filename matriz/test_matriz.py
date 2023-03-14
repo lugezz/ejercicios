@@ -3,7 +3,7 @@ import unittest
 from matriz.utils import generate_matriz_random
 
 
-class TestSimple(unittest.TestCase):
+class TestMatriz(unittest.TestCase):
     def test_generated_list(self):
         """testea la longitud de la matriz
         """
